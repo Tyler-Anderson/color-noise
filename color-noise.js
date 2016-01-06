@@ -55,4 +55,4 @@ function colorNoise(){
 return AudioContext;
 };
 
-module.exports = patch;
+module.exports = colorNoise(); 
