@@ -1,2 +1,2 @@
 just a color noise patch for AudioContext, will only work in browser environments that have support for AudioContext.
-The methods createWhiteNoise, createBrownNoise, and createPinkNoise are added to the global AudioContext object. The import returns the AudioContext object but you don't actually have to do more than require('color-noise') to modify the prototype of AudioContext.
+The methods createWhiteNoise, createBrownNoise, and createPinkNoise are added to the global AudioContext object when required. The module export actually returns the result of "new AudioContext;" on import just because it feels more natural that way, the AudioContext is patched globally so you don't have to use it that way if you don't want.

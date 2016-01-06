@@ -52,7 +52,7 @@ function colorNoise(){
         };
     })(window.AudioContext || window.webkitAudioContext);
 
-return AudioContext;
+return new AudioContext;
 };
 
 module.exports = colorNoise(); 
