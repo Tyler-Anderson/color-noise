@@ -1,0 +1,28 @@
+{
+  "name": "colornoise",
+  "version": "1.0.0",
+  "description": "adds methods to create white brown and pink noise to the AudioContext",
+  "main": "color-noise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tyler-Anderson/color-noise.git"
+  },
+  "keywords": [
+    "whitenoise",
+    "white",
+    "pink",
+    "brown",
+    "noise",
+    "Audio",
+    "AudioContext"
+  ],
+  "author": "Tyler Anderson <tyler@brava.do> (http://brava.do)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tyler-Anderson/color-noise/issues"
+  },
+  "homepage": "https://github.com/Tyler-Anderson/color-noise#readme"
+}
